@@ -3,9 +3,25 @@
 <html>
     <head>
         <title>Homework_1 </title>
+       <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <div>
+        <style>
+            h1{
+                border: 1px solid red;
+            }
+                 
+            table thead th{
+              border: 3px solid rgb(255, 123, 0);
+          }
+          table tbody td{
+              border: 1px solid rgb(255, 123, 0);
+          }
+          table tfoot th{
+              border: 3px solid rgb(255, 123, 0);
+          }
+        </style><!--Второй способ именовать стили-->
+        <div id="block1">
             <table width="100%">
                 <tr>
                     <td>
@@ -18,12 +34,12 @@
                 </tr>
             </table>
             <img src="image/human.png" alt="Человек развел руками">
-            <h1> CHOOSE FLUTTER TO CHOOSE BOTH </h1>
+            <h1 style="border: 1px solid red; padding: 25px;" id="block4"> CHOOSE FLUTTER TO CHOOSE BOTH </h1><!--Первый способ именовать стиля-->
             <button>REGISTER</button>
         </div> <!--Block 1-->
         <div>
-            <h2>WORKSHOP</h2>
-            <p>We're launching a series of practical workshops on development in January 2020. We'll
+            <h2 id="block2">WORKSHOP</h2>
+            <p class="paragraph">We're launching a series of practical workshops on development in January 2020. We'll
                 teach you how to know your way around software, share the latest news, and help to start.
             </p>
             <p>
@@ -33,7 +49,7 @@
             </p>
         </div><!--Block 2-->
         <div>
-            <h2>WHEN AND WHERE</h2>
+            <h2 id="block3">WHEN AND WHERE</h2>
             <div>
                 <div>
                     <h3>Where</h3>
@@ -51,7 +67,7 @@
             </div>
         </div><!--Block 3-->
         <div>
-            <h2>WHO</h2>
+            <h2 id="block2">WHO</h2>
             <table width="70%">
                 <caption>
                   <b><font face="Arial">Цены на флагманские модели IPhone и Xiaomi</font></b> 
@@ -96,22 +112,10 @@
                  <th><font face="Arial">$758.8</font></th>
                 </tfoot>
              </table>
-             <style>
-                 
-                 table thead th{
-                   border: 3px solid rgb(255, 123, 0);
-               }
-               table tbody td{
-                   border: 1px solid rgb(255, 123, 0);
-               }
-               table tfoot th{
-                   border: 3px solid rgb(255, 123, 0);
-               }
-             </style>
             <button>Register</button>
         </div><!--Block 4-->
         <div>
-            <h2>GET READY</h2>
+            <h2 id="block3">GET READY</h2>
             <p>
                                 We prepared some materials to get to know the platform. You're not obliged to study them,
                 but it'll help to learn the basics faster and easier, prepare a list of questions to
@@ -123,7 +127,7 @@
             </button>
         </div><!--Block 5-->
         <div>
-            <h2>ORGANIZERS</h2>
+            <h2 id="block2">ORGANIZERS</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non
 possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur
