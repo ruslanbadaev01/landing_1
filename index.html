@@ -3,15 +3,43 @@
 <html>
     <head>
         <title>Homework_1 </title>
+       <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <div>
-            <h1> CHOOSE FLUTTER TO CHOOSE BOTH </h1>
+        <style>
+            h1{
+                border: 1px solid red;
+            }
+                 
+            table thead th{
+              border: 3px solid rgb(255, 123, 0);
+          }
+          table tbody td{
+              border: 1px solid rgb(255, 123, 0);
+          }
+          table tfoot th{
+              border: 3px solid rgb(255, 123, 0);
+          }
+        </style><!--Второй способ именовать стили-->
+        <div id="block1">
+            <table width="100%">
+                <tr>
+                    <td>
+                        <img src="image/logo-black.png" alt="Логотип LearnUp">
+                    </td>
+
+                    <td align="right">
+                       <font size >DECEMBER 2021</font>
+                    </td>
+                </tr>
+            </table>
+            <img src="image/human.png" alt="Человек развел руками">
+            <h1 style="border: 1px solid red; padding: 25px;" id="block4"> CHOOSE FLUTTER TO CHOOSE BOTH </h1><!--Первый способ именовать стиля-->
             <button>REGISTER</button>
         </div> <!--Block 1-->
         <div>
-            <h2>WORKSHOP</h2>
-            <p>We're launching a series of practical workshops on development in January 2020. We'll
+            <h2 id="block2">WORKSHOP</h2>
+            <p class="paragraph">We're launching a series of practical workshops on development in January 2020. We'll
                 teach you how to know your way around software, share the latest news, and help to start.
             </p>
             <p>
@@ -21,7 +49,7 @@
             </p>
         </div><!--Block 2-->
         <div>
-            <h2>WHEN AND WHERE</h2>
+            <h2 id="block3">WHEN AND WHERE</h2>
             <div>
                 <div>
                     <h3>Where</h3>
@@ -39,11 +67,55 @@
             </div>
         </div><!--Block 3-->
         <div>
-            <h2>WHO</h2>
+            <h2 id="block2">WHO</h2>
+            <table width="70%">
+                <caption>
+                  <b><font face="Arial">Цены на флагманские модели IPhone и Xiaomi</font></b> 
+                </caption>
+                 <thead >
+                 <tr>
+                   <th align="left"><font face="Arial">Производитель</font></th>
+                     <th><font face="Arial">Модель</font></th>
+                     <th><font face="Arial">Цена</font></th>
+                 </tr>
+                </thead>
+                <tbody>
+                 <tr>
+                     <td rowspan="4"><font face="Arial">IPhone</font></td>
+                 </tr>
+                 <tr>
+                     <td align="middle"><font face="Arial">12 Pro</font></td>
+                     <td align="middle"><font face="Arial">$999</font></td>
+                 </tr>
+                 <tr>
+                     <td align="middle"><font face="Arial">12</font></td>
+                     <td align="middle"><font face="Arial">$799</font></td>
+                 </tr>
+                 <tr>
+                     <td align="middle"><font face="Arial">12 mini</font></td>
+                     <td align="middle"><font face="Arial">$699</font></td>
+                 </tr>
+                 <tr>
+                     <td rowspan="3"><font face="Arial">Xiaomi</font></td>
+                 </tr>
+                 <tr>
+                     <td align="middle"><font face="Arial">Mi 10</font></td>
+                     <td align="middle"><font face="Arial">$768</font></td>
+                 </tr>
+                 <tr>
+                     <td align="middle"><font face="Arial">Black Shark 3 128 Gb</font></td>
+                     <td align="middle"><font face="Arial">$529</font></td>
+                 </tr>
+                </tbody>
+                <tfoot>
+                 <th colspan="2" align="left"><font face="Arial">Средняя цена:</font></th>
+                 <th><font face="Arial">$758.8</font></th>
+                </tfoot>
+             </table>
             <button>Register</button>
         </div><!--Block 4-->
         <div>
-            <h2>GET READY</h2>
+            <h2 id="block3">GET READY</h2>
             <p>
                                 We prepared some materials to get to know the platform. You're not obliged to study them,
                 but it'll help to learn the basics faster and easier, prepare a list of questions to
@@ -55,7 +127,7 @@
             </button>
         </div><!--Block 5-->
         <div>
-            <h2>ORGANIZERS</h2>
+            <h2 id="block2">ORGANIZERS</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non
 possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur
@@ -74,4 +146,5 @@ obcaecati perferendis quia quis soluta totam unde vero.
         </div><!--Block 6-->
         
     </body>
+
 </html>
