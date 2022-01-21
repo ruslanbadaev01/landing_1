@@ -102,7 +102,7 @@
 
  .button{
     font-family: Open Sans;
-   /* font-weight: 800;/*Я хотел изменить жирность шрифта, но почему-то у меня не получается это сделать*/
+   font-weight: 800;
     padding-right: 49px;
     padding-left: 49px;
     padding-top: 21px;
@@ -111,8 +111,10 @@
     height: 69px;
     background-color: white;
     border: 0px;
-    transform: scale(10);
-    opacity: 0;
+    cursor: pointer;
+ }
+ .button:hover{
+     background-color: rgb(210, 208, 211);
  }
 
  .apple{
@@ -227,6 +229,10 @@
     border: 1px solid #4A4A4A;
     box-sizing: border-box;
     padding: 13px 49px 13px 49px;
+    cursor: pointer;
+}
+.button_2:hover{
+    background-color: rgb(210, 208, 211);
 }
 
 .gr1{
@@ -418,6 +424,10 @@ color: #FFFFFF;
     padding-top:13px;
     padding-bottom:13px ;
     border-color: white;
+    cursor: pointer;
+}
+.button3:hover{
+    background-color: rgb(210, 208, 211);
 }
 
 .ret{
@@ -633,10 +643,9 @@ color: #FFFFFF;
 .en{
     width: 93px;
     height: 36px;
-    left: 0px;
+    left: 675px;
     right: 47.21%;
     top: 13px;
-    margin: auto;
     position: relative;
     font-family: Fira Sans;
     font-style: normal;
@@ -677,7 +686,11 @@ color: #FFFFFF;
     padding-top:13px;
     padding-bottom:13px ;
     border: 0px;
+    cursor: pointer;
 }
+.button4:hover{
+     background-color: rgb(210, 208, 211);
+ }
 
 /*Block 5*/
 
