@@ -1,0 +1,810 @@
+
+/*Block1*/
+.logo svg path{
+    fill: rgb(255, 255, 255);
+}
+
+.dec{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 36px;
+    text-align: right;
+    color: #FFFFFF
+}
+
+#block1{
+    height: 794px;
+    width:auto;
+    background: url(./img/bg_orange.jpg) no-repeat;
+    background-size:cover;
+    margin: 0 auto;
+}
+
+.wrap{
+    padding-top: 53px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1180px;
+    width: 100%;
+    margin:0 auto;
+}
+
+ h1{
+     font-size: 48px;
+     font-weight: normal;
+     margin: auto;
+ }
+
+ body{
+     margin: 0 auto;
+ }
+
+ .human {
+    margin: 19px auto 0;
+    width: 1072px;
+    height: 669px;
+    background-image: url(img/human.png);
+    position: relative;
+    
+}
+
+.title-wrap{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 72px;
+    margin-left: -257px; ;
+}
+
+ .title{
+    margin-bottom: 85px;
+}
+
+ .choose{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: 0.845em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+
+ .flutter{
+    margin-left: -24px;
+    margin-top: -40px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 154px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+
+ .both{
+    margin-top: -25px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.37em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+
+ .button{
+    font-family: Open Sans;
+   font-weight: 800;
+    padding-right: 49px;
+    padding-left: 49px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    width: 183px;
+    height: 69px;
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+ }
+ .button:hover{
+     background-color: rgb(210, 208, 211);
+ }
+
+ .apple{
+    background:url('img/aple.png') no-repeat;
+    position:relative;
+    height: 169px;
+    width: 100px;
+    position: absolute;
+    left: 1%;
+    right: -10.83%;
+    top: 19.13%;
+    bottom: 36.17%;
+ }
+
+ .ios{
+    position: absolute;
+    height: 56px;
+    left: 3.6%;
+    right: 92.77%;
+    top: calc(32% - 56px/2 + 66px);  
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+ 
+ .android{
+    background: url(img/android.png) no-repeat;
+    position: relative;
+    height: 116px;
+    width: 99px;
+    top: 23.13%;
+    bottom: 36.17%;
+    left: 90%;
+}
+
+.android_word{
+    position: absolute;
+    height: 46px;
+    left: 89.39%;
+    right: 0%;
+    top: calc(36% - 46px/2 + 51.63px);
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/*Block 2*/
+
+
+.block2{
+    height: 794px;
+}
+
+.work{
+    width: 235px;
+    margin-bottom: 111px;
+    margin-top: 53px;
+    height: 36px;
+    left: 42.08%;
+    right: 41.94%;
+    top: calc(50% - 36px/2 - 325px);
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: #4A4A4A; 
+}
+
+.di{
+    position: relative;
+    margin-left: 130px;
+    top: 57px;
+}
+
+.We{
+    position: relative;
+    left: 25.69%;
+    right: 25.69%;
+    top: 0px;
+    bottom: 49.12%;
+    width: 700px;
+    height: 203px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    color: #4A4A4A;
+}
+
+.button_2{
+    font-family: Open Sans;
+    background-color: white;
+    position: absolute;
+    height: 45px;
+    top: 887px;
+    margin-right: 10px;
+    left: 1164px;
+    bottom: 256px;
+    border: 1px solid #4A4A4A;
+    box-sizing: border-box;
+    padding: 13px 49px 13px 49px;
+    cursor: pointer;
+}
+.button_2:hover{
+    background-color: rgb(210, 208, 211);
+}
+
+.gr1{
+    left: 216px;
+    background: url('img/obrizok1.png') no-repeat;
+    height: 230px;
+    width: 155px;
+    position: relative;
+}
+
+.ab1{
+    top: -79px;
+    position: relative;
+    height: 29px;
+    width: 146px;
+    left: 225px;
+    right: 74.41%;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.0366516px;
+    color: #FF7E03;
+}
+
+.plat1{
+    left: -26.97%;
+    right: 67.29%;
+    top: -61.66%;
+    bottom: 2.9%;
+    position: relative;
+    width: 341px;
+    height: 101px;
+    margin: auto;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.0326923px;
+    color: #4A4A4A;
+}
+
+.gr2{
+    background: url('img/obrizok2.png') no-repeat;
+    height: 230px;
+    width: 155px;
+    position: relative;
+    left: 670px;
+    bottom: 262px;
+}
+
+.ab2{
+    position: absolute;
+    width: 120px;
+    height: 29px;
+    right: 45.83%;
+    top: 1397px;
+    left: 690px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.0366516px;
+    color: #FF7E03
+}
+
+.plat2{
+    width: 341px;
+    height: 101px;
+    top: -589px;
+    left: 610px;
+    position: relative;
+right: 37.43%;
+bottom: 2.78%;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 24px;
+/* or 141% */
+
+letter-spacing: -0.0326923px;
+
+color: #4A4A4A;
+}
+
+.gr3{
+    background: url('img/obrizok3.png') no-repeat;
+    height: 156px;
+    width: 155px;
+    position: relative;
+    margin: 0 auto;
+    right: -471px;
+    bottom: 500px;
+}
+
+.ab3{
+    width: 51px;    
+    position: relative;
+    height: 29px;
+    left: 80.43%;
+    right: 19.03%;
+    top: calc(-90% - 29px/2 + 234.5px);
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.0366516px;
+    color: #FF7E03;
+}
+
+.plat3{
+    width: 341px;
+    height: 101px;
+    top: -692px;
+    left: 1080px;
+    position: relative;
+    right: 9.03%;
+    bottom: 2.78%;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 24px;
+/* or 141% */
+
+letter-spacing: -0.0326923px;
+
+color: #4A4A4A;
+
+}
+
+/* Block 3 */
+
+.block3{
+    height: 794px;
+    background:url(./img/black_back.jpg) no-repeat;
+    background-size:cover;
+    margin: 0 auto;
+    position: relative;
+}
+
+.di2{
+    height: 45px;
+    width: 121px;
+    position: relative;
+    left: 121px;
+    top: 53px;
+}
+
+.hen{
+    position: absolute;
+height: 36px;
+width: 385px;
+left: 37.7%;
+right: 38.09%;
+top: 63px;
+font-family: Fira Sans;
+font-style: normal;
+font: weight 100px;;
+font-size: 36px;
+line-height: 36px;
+/* identical to box height, or 100% */
+
+text-align: center;
+letter-spacing: 6px;
+
+color: #FFFFFF;
+}
+
+.button3{
+    background-image: url(./img/black_back.jpg);
+    color: white;
+    font-family: Open Sans;
+    position: relative;
+    left: 1204px;
+    top: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:13px;
+    padding-bottom:13px ;
+    border-color: white;
+    cursor: pointer;
+}
+.button3:hover{
+    background-color: rgb(210, 208, 211);
+}
+
+.ret{
+    width: 1180px;
+    height: 504px;
+    margin-top: 119px;
+    margin-left: 149px;
+    margin-bottom: 113px;
+    margin-right: 130px;
+    border: solid white;
+}
+
+.w{
+    height: 58px;
+    width: 142px;
+    margin: 0px;
+    position: relative;
+    left: 70px;
+    right: 82.29%;
+    top: calc(50% - 58px/2 - 205px);
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.m{
+    width: 120px;
+    margin: 0px;
+    position: relative;
+    height: 20px;
+    left: 70px;
+    right: 83.73%;
+    top: 46px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.0326923px;
+    color: #FFFFFF;
+}
+
+.L{
+    position: relative;
+    height: 43px;
+    width: 140px;
+    margin: 0px;
+    left: 6.1%;
+    right: 82.29%;
+    top: 58px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: -0.0326923px;
+    color: #FFFFFF;
+}
+
+.loc{
+    background: url(./img/loc.png) no-repeat;
+    position: relative;
+    width: 19px;
+    height: 26px;
+    left: 6.1%;
+    right: 92.37%;
+    top: 59px;
+    bottom: 59.07%;
+}
+
+.s{
+    position: relative;
+    height: 20px;
+    width: 103px;
+    left: 8.31%;
+    right: 82.97%;
+    top: 43px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.0326923px;
+    color: #FFFFFF;
+}
+
+.hn{
+    position: relative;
+    width: 123px;
+    height: 58px;
+    left: 5.85%;
+    right: 83.73%;
+    margin: 0px;
+    top: 81px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.dece{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    left: 5.85%;
+    right: 73.64%;
+    top: 136px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 13.2778px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.y1{
+    position: relative;
+    height: 121px;
+    left: 5.85%;
+    right: 76.95%;
+    top: 121px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 121px;
+    letter-spacing: -0.0871795px;
+    color: #FFFFFF;
+    width: 190px;
+    height: 98px;
+}
+
+.ab{
+    position: absolute;
+    height: 58px;
+    left: 51.78%;
+    right: 16.61%;
+    top: 236px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF; 
+}
+
+.du{
+    position: absolute;
+    left: 51.78%;
+    right: 8.73%;
+    top: 349px;
+    bottom: 58.73%;
+    height: 80px;
+    width: 220px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+    
+    letter-spacing: -0.0326923px;
+    
+    color: #FFFFFF;
+}
+.cos{
+    width: 127px;
+    height: 46px;
+    left: 53.69%;
+    right: 37.63%;
+    top: 0;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 17.7778px;
+    text-transform: uppercase;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.fr{
+    height: 121px;
+    width: 180px;
+    left: 630px;
+    top: -21px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 121px;
+    position: relative;
+    letter-spacing: -0.0871795px;
+    color: #FFFFFF;
+}
+
+
+/*Blcok 4*/
+
+
+.block4{
+    height: 289px;
+}
+
+.en{
+    width: 93px;
+    height: 36px;
+    left: 675px;
+    right: 47.21%;
+    top: 13px;
+    position: relative;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: #4A4A4A;
+}
+
+.dd{
+    height: 36px;
+    width: 200px;
+    left: 77.33%;
+    right: 12.46%;
+    top: -19px;
+    position: relative;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 36px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #4A4A4A;
+}
+
+.button4{
+    background-image: url(./img/Rec3.png);
+    color: white;
+    font-family: Open Sans;
+    position: relative;
+    left: 651px;
+    top: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:13px;
+    padding-bottom:13px ;
+    border: 0px;
+    cursor: pointer;
+}
+.button4:hover{
+     background-color: rgb(210, 208, 211);
+ }
+
+/*Block 5*/
+
+.heh{
+    position: relative;
+    height: 36px;
+    width: 381px;
+    left: 37.7%;
+    right: 38.09%;
+    top: 17px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font: weight 100px;;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: #FFFFFF;
+}
+.prep{
+    position: relative;
+    left: 419px;
+    right: 370px;
+    top: 175px;
+    bottom: 55.79%;
+    height: 125px;
+    width: 700px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: justify;
+    color: #FFFFFF; 
+}
+
+.vv{
+    width: 120px;
+    height: 38px;
+    left: 130px;
+    right: 82.71%;
+    top: 236px;
+    position: relative;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+/*На 700 строках кода я понял, что можно было написать
+ гораздо менньше классов и редактировать их просто в style в html,я понял свою
+ ошибку,тем не менее,не ругайте меня сильно пожалуйста, это мой первый лендинг все таки:( 
+я много разных ошибок нашел и решил их сам же,однако остались нерешенные проблемы,например я так и не понял почему у меня шрифт толще чем в макете фигмы в некоторых местах*/
+
+.se{
+    position: relative;
+    left: 11.11%;
+    right: 71.32%;
+    top: 57.81%;
+    bottom: 39.17%;
+    
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height, or 126% */
+    
+    letter-spacing: -0.0365385px;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+    
+}
+
+.lor{
+    position: relative;
+    left: 17.36%;
+    right: 17.36%;
+    top: 23.68%;
+    bottom: 46.1%;
+    width: 940px;
+    height: 240px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #000000;   
+}
+
+.inn{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 180px;
+}
+
+.jj{
+    position: relative;
+    width: 155px;
+    height: 23px;
+    left: 28.12%;
+    right: 61.39%;
+    top: calc(50% - 23px/2 + 162.5px);
+    
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #000000;
+}
