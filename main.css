@@ -111,6 +111,8 @@
     height: 69px;
     background-color: white;
     border: 0px;
+    transform: scale(10);
+    opacity: 0;
  }
 
  .apple{
@@ -631,9 +633,10 @@ color: #FFFFFF;
 .en{
     width: 93px;
     height: 36px;
-    left: 675px;
+    left: 0px;
     right: 47.21%;
     top: 13px;
+    margin: auto;
     position: relative;
     font-family: Fira Sans;
     font-style: normal;
