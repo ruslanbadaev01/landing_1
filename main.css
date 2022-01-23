@@ -758,12 +758,9 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: normal;
     font-size: 19px;
-    line-height: 24px;
-    /* identical to box height, or 126% */
-    
+    line-height: 24px; 
     letter-spacing: -0.0365385px;
     text-decoration-line: underline;
-    
     color: #FFFFFF;
     
 }
