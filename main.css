@@ -758,12 +758,9 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: normal;
     font-size: 19px;
-    line-height: 24px;
-    /* identical to box height, or 126% */
-    
+    line-height: 24px; 
     letter-spacing: -0.0365385px;
     text-decoration-line: underline;
-    
     color: #FFFFFF;
     
 }
@@ -799,12 +796,10 @@ color: #FFFFFF;
     left: 28.12%;
     right: 61.39%;
     top: calc(50% - 23px/2 + 162.5px);
-    
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
-    
+    line-height: 20px; 
     color: #000000;
 }
