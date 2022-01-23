@@ -799,12 +799,10 @@ color: #FFFFFF;
     left: 28.12%;
     right: 61.39%;
     top: calc(50% - 23px/2 + 162.5px);
-    
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
-    
+    line-height: 20px; 
     color: #000000;
 }
